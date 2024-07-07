@@ -21,4 +21,23 @@ public class MovieTickets {
     long cardNumber;
     String expiry;
     int cvv;
+
+    @Override
+    public String toString() {
+        return "MovieTickets{" +
+                "fullName='" + fullName + '\'' +
+                ", email='" + email + '\'' +
+                ", phoneNumber=" + phoneNumber +
+                ", movieTitle='" + movieTitle + '\'' +
+                ", theatre='" + theatre + '\'' +
+                ", date='" + date + '\'' +
+                ", time='" + time + '\'' +
+                ", noOfTickets=" + noOfTickets +
+                ", seatType='" + seatType + '\'' +
+                ", seatNumbers='" + seatNumbers + '\'' +
+                ", cardNumber=" + cardNumber +
+                ", expiry='" + expiry + '\'' +
+                ", cvv=" + cvv +
+                '}';
+    }
 }

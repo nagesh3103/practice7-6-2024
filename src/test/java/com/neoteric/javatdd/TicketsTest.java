@@ -3,10 +3,7 @@ package com.neoteric.javatdd;
 import org.junit.jupiter.api.Test;
 
 public class TicketsTest {
-    @Override
-    public String toString() {
-        return "TicketsTest{}";
-    }
+
 
     @Test
     public void test(){
@@ -24,5 +21,6 @@ public class TicketsTest {
         details.cardNumber=123456789;
         details.expiry="04/27";
         details.cvv=456;
+        System.out.println(details);
     }
 }

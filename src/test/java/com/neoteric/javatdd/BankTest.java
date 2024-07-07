@@ -13,5 +13,6 @@ public class BankTest {
         details.accountNumber=123456789;
         details.contactNumber=8686024836L;
         details.date="6/7/24";
+        System.out.println(details);
     }
 }
