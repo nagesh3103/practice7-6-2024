@@ -32,7 +32,7 @@ class BankServiceTest {
         nagesh.address=chandraAddress;
         System.out.println(nagesh);
         AccountInformation myAccount = new AccountInformation();
-        myAccount.initialDeposit=5001;
+        myAccount.initialDeposit=6001;
         myAccount.typeOfAccount="Savings";
         System.out.println(myAccount);
 

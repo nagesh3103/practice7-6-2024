@@ -12,6 +12,7 @@ public class BankService {
             account=new AccountDetails();
             account.accountNumber="ACC: " + UUID.randomUUID().toString();
             account.iifscCode="xyz123";
+            System.out.println(account);
         }
         System.out.println(account);
         return account;
