@@ -1,10 +1,16 @@
 package com.neoteric.functions;
 
+import java.util.List;
+
 public class Employee {
     private String firstName;
     private String lastName;
     private int age;
-    private int salary;
+    public double ctc;
+    private String position;
+    private int employeeId;
+    public List<WorkHistory> workHistorylist;
+    public WorkHistory currentMonthWorkHistory;
 
     public String getFirstName() {
         return this.firstName;
@@ -18,15 +24,13 @@ public class Employee {
         return this.age;
     }
 
-    public int getSalary() {
-        return this.salary;
-    }
 
-    public Employee(String firstName, String lastName, int age, int salary) {
+
+    public Employee(String firstName, String lastName, int age) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.age = age;
-        this.salary = salary;
+
     }
 }
 

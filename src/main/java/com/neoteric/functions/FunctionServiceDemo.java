@@ -2,6 +2,7 @@ package com.neoteric.functions;
 
 import java.util.function.BiFunction;
 import java.util.function.Function;
+import java.util.function.Predicate;
 import java.util.function.Supplier;
 
 public class FunctionServiceDemo {
@@ -9,7 +10,7 @@ public class FunctionServiceDemo {
     Supplier<String> nameSupplierlamda = () ->"neoteric";
 
     Supplier<Employee> nameSupplier= () ->{
-        Employee employee = new Employee("Chandra","Bollempalli",26,30000);
+        Employee employee = new Employee("Chandra","Bollempalli",26);
         return employee;
     };
 
@@ -28,6 +29,7 @@ public class FunctionServiceDemo {
     public String nameUpperCaseWithFunction(Function<String,String> upper,String name){
         return upper.apply(name);
     }
+
 
 
     public static void main(String[] args) {
